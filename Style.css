@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(57, 46, 46);
+}
+
+.lg {
+    width: 55px;
+    height: 55px;
+}
+
+.cabecalho {
+    background-color: #ED1B2E;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.List-menu{
+    list-style: none;
+    display: flex;
+}
+.List-menu li {
+    margin: 0 30px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+main h1{
+    text-align: center;
+    margin-top: 104px;
+}
+.imagem-main {
+    width: 300px;
+    height: 300px;
+}
+.contet-cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px ;
+    margin: 15px 15px 15px 30px;
+    justify-content: space-around;
+    background-color: rgb(224, 212, 212);
+}
+.texto-card{
+    text-align: center;
+}
+footer h3{
+    background-color: #ED1B2E;
+    text-align: center;
+    padding: 95px;
+}
